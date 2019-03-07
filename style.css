@@ -1,0 +1,176 @@
+
+{
+  box-sizing: border-box;
+}
+
+body {
+font-family: "Georgia", Times, serif;
+color: #777;
+
+}
+  
+  
+main{
+background-image: url("photos/backroundImage.png");
+  
+}
+
+.container{
+  width:960px;
+  margin: 0 auto;
+  padding: 1px;
+  
+  
+
+}
+
+header{
+background:white;
+margin:
+}
+
+.name{
+background: #4aaaa5;
+padding: 25px;
+text-align: center;
+color:white;
+float: left;
+}
+
+
+
+.nav {
+background: #ebebeb;
+color: #777777;
+float: right;
+    
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #777777 ;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  
+  
+}
+
+
+  
+.aboutMe{
+  
+  color:#777777;
+  font-weight: bold;
+  padding:5px;
+  
+
+}
+
+.section{
+  color:#777777;
+  background: white;
+  margin: 40px 0px 90px 0px;
+  padding:20px;
+  
+  
+
+}
+
+
+  
+img {
+  float: left;
+  padding-right: 20px;
+}
+
+
+footer{
+  background:#666666;
+  text-align: center;
+  color:#777777 ;
+  height: 50px;
+  
+  border-top: 12px solid #dddddd;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+.footer,
+.push {
+  height: 50px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+  overflow: auto;
+}
+
+
+
+h3{
+  color:#777777;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dddddd ;
+  color:black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #777777;
+  color: #ffffff;
+  padding: 12px 20px;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contactContainer {
+  border: 1px; solid #dddddd;
+  background-color: #ffffff;
+  color:#777777;
+  
+}
+
+img{
+  width:250px;
+  height:250px;
+  padding:10px;
+  align-content: left;
+}
