@@ -179,12 +179,24 @@ img{
 
 
 @media screen and (max-width: 640px) {
-  
+  .name{
+    width:100%;
+    float:none;
+
+  }
+ .li{
+   float:left;
+   width:100%;
+   
+ }
+ .header{
+   width:100%;
+ }
+.{
+  float:none;
+}
+
  
- 
-.p{
-  width: 640px;
-  padding: 1px;
 }
 
   
@@ -192,6 +204,9 @@ img{
 
 @media screen and (max-width: 768px){
 
+  body{
+    width:100%;
+  }
   .container{
     width: 600px;
   }
@@ -207,8 +222,6 @@ img{
    
     width:100%;
   }
-  .main{
-    width:100%;
-  }
+  
    
 }
