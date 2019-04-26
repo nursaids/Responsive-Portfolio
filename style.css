@@ -169,10 +169,11 @@ input[type=submit]:hover {
 }
 
 img{
-  width:250px;
+  width:400px;
   height:250px;
   padding:10px;
   align-content: left;
+  border: #777
 }
 
 
@@ -209,6 +210,10 @@ img{
   }
   .container{
     width: 600px;
+  }
+  nav{
+    width:100%;
+    
   }
 }
 
